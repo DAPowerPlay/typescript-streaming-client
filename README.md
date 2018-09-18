@@ -1,7 +1,7 @@
 typescript-streaming-client
 =========
 
-This is socket.io client written in TypeScript using (socket.io-client)[https://www.npmjs.com/package/@types/socket.io-client] fto connect to our [DPP DataStreams](https://platform.dapowerplay.com/services/free).
+This is socket.io client written in TypeScript using [socket.io-client](https://www.npmjs.com/package/@types/socket.io-client) to connect to our [DPP DataStreams](https://platform.dapowerplay.com/services/free).
 
 
 Getting started
