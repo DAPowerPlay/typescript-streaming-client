@@ -1,0 +1,28 @@
+{
+  "name": "@dpp/ts-client",
+  "version": "1.0.0",
+  "description": "Typescript socket client for connecting to DPP Data Streams",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "start": "node dist/src/index.js",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "test",
+    "generate-barrels": "barrelsby --directory src/ --delete --exclude @types",
+    "prepublishOnly": "npm run generate-barrels"
+  },
+  "author": "DAPowerPlay",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io-client": "1.7.4"
+  },
+  "devDependencies": {
+    "@degordian/standards": "^1.0.8",
+    "@degordian/testing-toolkit": "^1.0.18",
+    "tslint": "^5.11.0",
+    "@types/node": "^10.9.4",
+    "typescript": "^3.0.3",
+    "barrelsby": "0.0.8",
+    "@types/socket.io-client": "^1.4.32"
+  }
+}
