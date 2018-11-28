@@ -1,8 +1,7 @@
 export interface Orderbook {
-    producerId: string;
-    state: OrderBookState;
     exchange: string;
-    market: string;
+    base: string;
+    quote: string;
     snapshot?: null | OrderBookSnapshot;
     patch?: null | OrderBookPatch;
 }

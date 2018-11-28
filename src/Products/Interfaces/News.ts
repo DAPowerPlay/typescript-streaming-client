@@ -1,5 +1,5 @@
 export interface News {
-    groupId: string;
+    currency: string;
     description: string;
     sentiment: string;
     title: string;
