@@ -4,6 +4,5 @@ export interface Index {
     weightedT: number;
     diffPercent: number;
     name: string;
-    diffPercentAbsolute: number;
-    tendency: string;
+    diff: number;
 }

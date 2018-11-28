@@ -6,10 +6,8 @@ export interface Candle {
     volume: number;
     size: number;
     tradesCounter: number;
-    closeTradeTimestamp: number;
-    openTradeTimestamp: number;
     startedAtTimestamp: number;
     exchange: string;
-    instrument: string;
-    isNew: boolean;
+    base: string;
+    quote: string;
 }
